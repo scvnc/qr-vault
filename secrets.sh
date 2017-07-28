@@ -5,6 +5,8 @@
 # Mounts a tmpfs
 
 set -e
+umask 077
+
 VAULT_DIR=$HOME/.vault
 
 # Requires zbar
